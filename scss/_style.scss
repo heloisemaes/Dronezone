@@ -1,0 +1,59 @@
+
+
+  .navbar-nav{
+    font-size:0.7rem;
+
+  }
+  .navbar-brand{
+
+    font-size:1.25rem;
+    letter-spacing:4px;
+
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: #ff0000;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(80, 148, 242, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  #bgheader{
+    background-image:
+            linear-gradient(to top right, rgba(203, 0, 53, 0.8), rgba(224, 105, 0, 0.8)), url("../img/background.png");
+    background-repeat:no-repeat;
+  background-size: contain;
+}
+
+#textlay {
+    color: $happy;
+  }
+#newsletter{
+  background-image:
+          linear-gradient(to top right, rgba(203, 0, 53, 0.8), rgba(224, 105, 0, 0.8)), url("../img/newsletterbg.jpg");
+  background-repeat:no-repeat;
+width: 100%;
+
+  background-size: contain;
+}
+h3{
+  background: linear-gradient(#ff0000,#ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+  /*// Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }*/
